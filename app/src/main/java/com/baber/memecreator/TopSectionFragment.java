@@ -58,8 +58,8 @@ public class TopSectionFragment extends Fragment {
 
     public void buttonClicked(View view) {
         activityCommander.createMeme(
-                topTextInput.toString(),
-                bottomTextInput.toString()
+                topTextInput.getText().toString(),
+                bottomTextInput.getText().toString()
         );
     }
 }
